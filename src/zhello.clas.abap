@@ -13,7 +13,8 @@ ENDCLASS.
 
 CLASS zhello IMPLEMENTATION.
  METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello world!' ).
+
+    out->write( 'Hello SAP world!' ).
 
   ENDMETHOD.
 ENDCLASS.
